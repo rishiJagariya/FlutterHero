@@ -1,0 +1,90 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+span{
+    opacity: 0;
+    transition:all 0.4s ease;
+    display: inline-block;
+}
+
+.fade{
+    opacity: 1;
+    
+}
+
+.fade:not(.show) {
+    opacity: 1;
+}
+pre{
+    margin: 0;
+    padding:0;
+    font-family: 'Lora', serif;
+    display: inline;
+    font-size: 2.6rem;
+    
+}
+
+.intro .container{
+    margin:auto;
+}
+.row{
+    max-height: 250px;
+    padding-top: 5%;
+}
+.col-sm{
+    margin: auto auto;
+}
+.col-sm img{
+    max-width: 70%;
+    object-fit: contain;
+    max-height: 700%;
+}
+
+@media screen and (max-width: 992px) {
+    pre{
+        font-size:2.0rem;
+    }
+    .row{
+        min-height: 200px;
+        max-height: 250px;
+    }
+
+    .col-sm img{
+        margin:auto;
+        padding:5%;
+    }
+
+  }
+
+  @media screen and (max-width: 780px) {
+    pre{
+        font-size:1.5rem;
+    }
+
+    .row{
+        min-height: 200px;
+    }
+
+    .col-sm img{
+        margin:auto;
+        padding:10%;
+    }
+
+  }
+
+  @media screen and (max-width : 575px){
+      .fancy{
+          text-align: center;
+      }
+      .row{
+          min-height: 50px;
+      }
+      .col-sm img{
+          margin:auto;
+          padding: 20%;
+          padding-top: 5%;
+          padding-bottom: 5%;
+      }
+  }
+
+
+ */

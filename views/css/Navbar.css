@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+    background-color: #eeee;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+a{
+    padding: 0;
+}
+
+
+nav a {
+    font-size: 18px;
+}
+
+nav a img{
+    margin-right: 8px;    
+}
+
+nav{
+    border-bottom: 5px solid #999;
+
+}
+
+nav div{
+    margin-left: 15px;
+}
+nav div ul li{
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+
+
+nav div  ul li a:after{
+    content:"";
+    display: block;
+    border-bottom: 2px solid transparent;
+}
+
+nav div ul li:hover a:after {
+    content: "";
+    display: block;
+    width: min(70%,30px);
+    border-bottom: 2px solid blue;
+}
+
+.nav-link{
+    padding: 0;
+}
+
+.loginButton{
+    border:2px solid #777;
+    color:#777;
+}
+
+.registerButton{
+    border:2px solid #777;
+    color:#777;
+}

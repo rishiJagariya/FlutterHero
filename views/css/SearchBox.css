@@ -1,0 +1,37 @@
+.searchBox{
+    max-width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.searchBox input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border:2px solid grey;
+    font-size:1rem;
+}
+.searchBox button i{
+    padding: 8px;
+}
+
+
+@media screen and (max-width:500px){
+
+    
+    .searchBox{
+        display: block;
+    }
+    .searchBox input, .searchBox button{
+        display: block;
+    }
+    .searchBox input{
+        width: 100%;
+    }
+    .searchBox button{
+        
+        margin:auto;
+        margin-top:15px;
+    }
+
+} 
