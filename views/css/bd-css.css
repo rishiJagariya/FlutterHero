@@ -1,0 +1,9 @@
+.bd-sidebar{
+    order: 0;
+}
+.bd-nav-2{
+    order: 2;
+}
+.bd-main{
+    order: 1;
+}
