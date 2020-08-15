@@ -11,9 +11,13 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <!-- [Bootstrap CSS ENDS] -->
 
+    <!-- NavBar.css : top navigation bar
+         bd-css.css : sidebars + blog box 
+         main.css   : all top level CSS -->
     <link rel="stylesheet" type="text/css" href="/css/Navbar.css" />
     <link rel="stylesheet" type="text/css" href="/css/intro.css" />
     <link rel="stylesheet" type="text/css" href="/css/bd-css.css" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
 
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap" rel="stylesheet" />
 
@@ -22,10 +26,10 @@
 
 <body>
     <!-- [Navbar STARTS] -->
-    <nav class="navbar navbar-light navbar-expand-lg nav-color">
+    <nav class="navbar navbar-light navbar-expand-lg nav-color nav-css">
         <a class="navbar-brand mr-5" href="/">
-            <img src="./pics/Navbar_Flutter_logo.svg" width="30" height="30" class="d-inline-block" alt=""
-                loading="lazy" />Flutter
+            <img src="./pics/flutter-logo.png" width="50" height="50" class="d-inline-block" alt=""
+                loading="lazy" style="margin: -10px 0px;"/>Flutter Buddy
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -65,17 +69,54 @@
     <!-- [Navbar END] -->
 
     <!-- [ Intro Section STARTS ] -->
-    <div class="intro">npm install -g heroku
-        <div class="row">
-            <div class="col-xl-2 col-md-3 bd-sidebar">
-                sidebar
+    <div class="intro container-fluid" style="background-color: white;">
+        <div class="row flex-xl-nowrap">
+
+            <!-- [left sidebar START] -->
+            <div class="col-xl-2 col-md-3 bd-sidebar bd">
+                <div class="search-box">
+                    <input class="form-control" placeholder="search..." type="search" name="search-box-1" id="search-box-1">
+                </div>
+                <div class="sub-heading">
+                    sidebar
+                </div>
             </div>
-            <nav class="d-none d-xl-block col-xl-2 bd-nav-2">
-                navigation
+            <!-- [left sidebar END] -->
+
+            <!-- [right sidebar START] -->
+            <nav class="d-none d-xl-block col-xl-2 bd-nav-2 bd">
+                navigation - 2
             </nav>
-            <main class="col-xl-8 col-md-9 bd-main" role="main">
-                main-content
+            <!-- [right sidebar END] -->
+
+            <!-- [blog box START] -->
+            <main class="col-xl-8 col-md-9 bd-main bd" role="main">
+                <div class="header">
+                    <div class="title-box">
+                        <h1>Flutter blog 1</h1>
+                    </div>
+                    <div class="info-box-1">
+                        <p style="display: inline;">22 Aug 2020, 9:00 PM (IST)</p>
+                        <span class="button-box">
+                            <span class="user-options">
+                                like/save
+                            </span>
+                            <span class="blog-options">
+                                github/codepen
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- [main content box START] -->
+                <div class="content-box">
+                    main-content
+                </div>
+                <!-- [main content box END] -->
+
             </main>
+            <!-- [blog box END] -->
+            
             
         </div>
     </div>

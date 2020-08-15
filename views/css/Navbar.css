@@ -1,15 +1,3 @@
-body{
-    margin:0;
-    padding:0;
-    box-sizing: content-box;
-    background-color: #eeee;
-    font-family: 'Baloo Tamma 2', cursive;
-}
-
-a{
-    padding: 0;
-}
-
 
 nav a {
     font-size: 18px;
@@ -19,9 +7,8 @@ nav a img{
     margin-right: 8px;    
 }
 
-nav{
-    border-bottom: 5px solid #999;
-
+body nav:first-child{
+    border-bottom: 2px solid #999;
 }
 
 nav div{
@@ -31,8 +18,6 @@ nav div ul li{
     border: 1px solid transparent;
     border-radius: 5px;
 }
-
-
 
 nav div  ul li a:after{
     content:"";
@@ -45,6 +30,10 @@ nav div ul li:hover a:after {
     display: block;
     width: min(70%,30px);
     border-bottom: 2px solid blue;
+}
+
+.nav-css{
+    background-color: rgb(252, 208, 228);
 }
 
 .nav-link{

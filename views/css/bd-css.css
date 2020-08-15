@@ -1,9 +1,40 @@
+.bd{
+    
+}
 .bd-sidebar{
     order: 0;
+    border-right: 1px solid rgba(0,0,0,.1);
 }
 .bd-nav-2{
     order: 2;
+    border-left: 1px solid rgba(0,0,0,.1);
 }
 .bd-main{
     order: 1;
+    padding: 0px 25px;
+}
+
+.search-box{
+    margin: 0px -15px;
+    padding: 15px;
+    border-bottom: solid 1px rgb(224, 224, 224);
+}
+.sub-heading{
+    margin: 0px -15px;
+    padding: 15px;
+}
+.title-box{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+
+}
+.button-box{
+    float: right;
+}
+
+.button-box .user-options{
+    padding: 0px 10px;
+}
+.button-box .blog-options{
+    padding: 0px 10px;
 }
